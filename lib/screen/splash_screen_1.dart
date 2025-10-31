@@ -20,10 +20,18 @@ class MySplashScreen extends StatelessWidget {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 color: Colors.lightBlue,
+                image: DecorationImage(
+                  image: AssetImage("/images/muerta.png"),
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
+            SizedBox(height: 20),
+            Text(
+              "HeyHo",
+              style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
+            ),
           ],
-          // Buat Gambar
           // title warna hitam
           // subtitle warna lebih kecil
           // ada baris bergambar bulet
