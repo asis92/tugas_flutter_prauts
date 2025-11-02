@@ -13,6 +13,7 @@ class MySplashScreen extends StatelessWidget {
           //posisi semua ditengah
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Spacer(),
             // buat gambar
             SizedBox(height: 20),
             Container(
@@ -38,7 +39,7 @@ class MySplashScreen extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              "Hello Kawan \n Kawans",
+              "Hello Kawan \n Ini Halaman 1",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25.0,
@@ -80,7 +81,7 @@ class MySplashScreen extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Container(
-              margin: EdgeInsets.only(left: 20, right: 20),
+              margin: EdgeInsets.only(left: 40, right: 40),
               child: SizedBox(
                 height: 40,
                 width: double.infinity,
@@ -97,7 +98,7 @@ class MySplashScreen extends StatelessWidget {
                     backgroundColor: Colors.green,
                   ),
                   child: Text(
-                    "Lanjooot",
+                    "Halaman Selanjutnya",
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.white,
@@ -107,12 +108,8 @@ class MySplashScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 30),
+            SizedBox(height: 70),
           ],
-          // title warna hitam
-          // subtitle warna lebih kecil
-          // ada baris bergambar bulet
-          // button
         ),
       ),
     );
