@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'splash_screen_2.dart';
 
-class MySplashScreen extends StatelessWidget {
-  const MySplashScreen({super.key});
+class MySplashScreen2 extends StatelessWidget {
+  const MySplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +37,7 @@ class MySplashScreen extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              "Hello Kawan \n Kawans",
+              "Hello Kawan \n Kawans 2",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25.0,
